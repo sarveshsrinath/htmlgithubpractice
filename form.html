@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digilock</title>
+  </head>
+  <body>
+    <header style="background-color: aquamarine">
+      <h1>Car dealership agency</h1>
+      <a href="" ; style="background-color: indianred; border-radius: 10px"
+        >Home</a
+      >
+      <a href="" ; style="background-color: indianred; border-radius: 10px"
+        >About</a
+      >
+      <a href="" ; style="background-color: indianred; border-radius: 10px"
+        >Products</a
+      >
+      <a href="" ; style="background-color: indianred; border-radius: 10px"
+        >Reach out!</a
+      >
+    </header>
+    <hr />
+    <form action="index.php" method="post">
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        id="username"
+        style="font-size: 20px"
+        placeholder="numpy"
+        required
+      />
+
+      <br />
+      <label for="email">Enter your email:</label>
+      <input
+        type="text"
+        id="email "
+        placeholder="xyzgmail.com"
+        required
+      /><br />
+      <label for="password">Enter your password:</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="xyz@123"
+        minlength="8"
+        required
+      />
+      <br />
+
+      <label for="bday">Enter your birthdate:</label>
+      <input type="date" id="bday" placeholder="05/01/2006" required /><br />
+      <label for="Mr">Mr.</label>
+      <input type="radio" id="Mr" value="Mr" name="xza" />
+      <label for="Mrs">Mrs.</label>
+      <input type="radio" id="Mrs" value="Mrs" name="xza" />
+      <br />
+      <label for="payments">Choose your preferred payment method:</label>
+      <select id="payments">
+        <option value="visa">visa</option>
+        <option value="upi">upi</option>
+        <option value="mastercard">mastercard</option>
+        <option value="ammex">ammex</option>
+      </select>
+      <br />
+      <input type="reset" /><br />
+      <input type="submit" /><br />
+    </form>
+    <footer style="background-color: aquamarine">
+      author-sarvesh &copy;
+      <br />
+      copyright reserved. <br />
+      <small><a href="mailto:shadowboy43341@gmail.com">my email</a></small>
+    </footer>
+  </body>
+</html>

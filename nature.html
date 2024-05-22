@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="images/nature.jpg" />
+    <title>Nature</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .header span {
+        background-color: rgb(133, 199, 10);
+        border-radius: 20px;
+        padding: 5px 10px;
+      }
+
+      .link-style {
+        background-color: cadetblue;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+      }
+
+      .link-style:hover {
+        background-color: darkcyan;
+      }
+
+      .media-container {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .media-container audio {
+        margin-left: 20px;
+      }
+
+      table {
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="header">
+      <span>Protect mother earth!</span>
+    </h1>
+    <h4><b>Nature:</b></h4>
+    <ul>
+      <li>
+        <a class="link-style" href="https://en.wikipedia.org/wiki/Tree"
+          >Trees</a
+        >
+      </li>
+      <br />
+      <li>
+        <a class="link-style" href="https://en.wikipedia.org/wiki/River"
+          >Rivers</a
+        >
+      </li>
+      <br />
+      <li>
+        <a class="link-style" href="https://en.wikipedia.org/wiki/Mountain"
+          >Mountains</a
+        >
+      </li>
+    </ul>
+    <p>We can define them in the following ways:-</p>
+    <dl style="background-color: lightseagreen; border: 1px dotted">
+      <dt>Trees:</dt>
+      <dd>
+        A woody perennial plant, typically having a single stem or trunk growing
+        to a considerable height and bearing lateral branches at some distance
+        from the ground.
+      </dd>
+      <dt>Rivers</dt>
+      <dd>
+        A large natural stream of water flowing in a channel to the sea, a lake,
+        or another river.
+      </dd>
+      <dt>Mountains</dt>
+      <dd>
+        A large natural elevation of the earth's surface rising abruptly from
+        the surrounding level.
+      </dd>
+    </dl>
+    <hr />
+    <h3><u>Data analysis of the countings</u></h3>
+    <table border="bold" ;>
+      <tr style="background-color: chocolate">
+        <th width="200px">Trees</th>
+        <th width="200px">Rivers</th>
+        <th width="200px">Mountains</th>
+      </tr>
+      <tr>
+        <td>100M</td>
+        <td>10M</td>
+        <td>90,000</td>
+      </tr>
+    </table>
+    <a
+      href="https://aqli.epic.uchicago.edu/news/top-5-pollution-charts-from-india/"
+      ><button
+        style="
+          font-size: 18px;
+          background-color: chartreuse;
+          border: double;
+          animation: reverse;
+          border-radius: 10px;
+        "
+      >
+        Pollution rates in india
+      </button></a
+    >
+    <form action="index.php" method="post">
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        id="username"
+        style="font-size: 20px"
+        placeholder="numpy"
+        required
+      />
+
+      <br />
+      <label for="email">Enter your email:</label>
+      <input
+        type="text"
+        id="email "
+        placeholder="xyzgmail.com"
+        required
+      /><br />
+      <label for="password">Enter your password:</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="xyz@123"
+        minlength="8"
+        required
+      />
+      <input type="submit" /><br />
+      <label for="bday">Enter your birthdate:</label>
+      <input type="date" id="bday" placeholder="05/01/2006" required /><br />
+      <label for="Mr">Mr.</label>
+      <input type="radio" id="Mr" value="Mr" name="xza" />
+      <label for="Mrs">Mrs.</label>
+      <input type="radio" id="Mrs" value="Mrs" name="xza" />
+      <br />
+      <input type="reset" />
+    </form>
+
+    <div class="media-container">
+      <video
+        src="videos/video123.mp4"
+        autoplay
+        width="500px"
+        controls
+        muted
+        border="2px"
+      ></video>
+      <audio src="audio/mixkit-hazy-after-hours-132.mp3" controls loop></audio>
+    </div>
+  </body>
+</html>
